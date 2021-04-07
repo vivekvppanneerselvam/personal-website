@@ -64,7 +64,7 @@ function App() {
             <p><small>©
               Copyright ©<script>document.write(new Date().getFullYear());</script>
               2021 All rights reserved | This template is designed by
-              <i class="icon-heart" aria-hidden="true"></i> by
+              <i class="icon-heart" aria-hidden="true"></i> 
               <a href="https://vivekpanneerselavam.in" target="_blank">Vivek Panneerselvam</a>
               </small></p>
 
@@ -82,7 +82,7 @@ function App() {
                         <div class="slider-text-inner js-fullheight" style={{ height: '158px' }}>
                           <div class="desc">
                             <h1>Hi! <br />I'm Vivek</h1>
-                            <h2>100% html5 bootstrap templates Made <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
+                            <h2>A programmer / blogger / venture capitalist</h2>
                             <p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
                           </div>
                         </div>
@@ -102,8 +102,26 @@ function App() {
                       <div class="about-desc">
                         <span class="heading-meta">About Us</span>
                         <h2 class="colorlib-heading">Who Am I?</h2>
-                        <p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                        <p><strong>Hi I'm Vivek, </strong> 
+                        Im a programmer with 6 years of experience managing all aspects of the development process for service based and product based companies.
+                        I am an Computer Science Engineering Undergraduate and Completed my B.E degree in 
+                        Computer Science and Engineering from Jeppiaar Engineering College (Affiliated Anna University), Chennai. 
+                        After completing my engineering, Joined a service based IT company where i get an opporunity to learn and work
+                        with real stuff. Provided excellent service to the organization and got good feedbacks from my managers and clients.
+                        I'm also passionate towards learning new stuffs and taking challenges, So I desided to bring my IT experience towards to support 
+                        my father's ecommerce business. I founded an IT based retail startup ecommerce website “Chennai Farm Fresh(https://www.chennaifarmfresh.in)”
+                        and in my learning towards IoT (Internet of Things). Started to do learn electronic's and did small projects like room temperature detector, IoT Drone etc.,
+                        </p>
+                        <p> I was so inspired and believe on below quotes.
+
+                        “All Birds find shelter during a rain, But Eagle avoids rain by flying above the clouds” - missile man
+                        “Dreams is not what you see in sleep, is the thing which doesn't let you sleep” - missile man
+
+                        </p>
+                                                 
+
+
+                        
                       </div>
                     </div>
                   </div>
@@ -136,8 +154,8 @@ function App() {
                   <div class="row">
                     <div class="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                       <div class="hire">
-                        <h2>I am happy to know you <br />that 300+ projects done sucessfully!</h2>
-                        <a href="#" class="btn-hire">Hire me</a>
+                        <h2>I am happy to know  <br />that I have done 50+ projects  sucessfully!</h2>
+                        {/* <a href="#" class="btn-hire">Hire me</a> */}
                       </div>
                     </div>
                   </div>
@@ -161,7 +179,7 @@ function App() {
                     </span>
                     <div class="desc">
                       <h3>Innovative Ideas</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <p>Implemented various new front-end development technologies and adept at promptly and proactively mastering them with a keen awareness of new industry developments and the evolution of programming solutions.</p>
                     </div>
                   </div>
                 </div>
@@ -172,7 +190,7 @@ function App() {
                     </span>
                     <div class="desc">
                       <h3>Software</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <p>Design and implement front end and back end website components</p>
                     </div>
                   </div>
                 </div>
@@ -183,7 +201,7 @@ function App() {
                     </span>
                     <div class="desc">
                       <h3>Application</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <p>Design a basic framework that ensures maintenance of proper coding standard.</p>
                     </div>
                   </div>
                 </div>
@@ -193,8 +211,9 @@ function App() {
                       <i class="icon-layers2"></i>
                     </span>
                     <div class="desc">
-                      <h3>Graphic Design</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <h3>Creative Design</h3>
+                      <p>Commendable involvement in understanding functional specifications and developing creative solutions.
+                        </p>
                     </div>
                   </div>
                 </div>
@@ -204,8 +223,12 @@ function App() {
                       <i class="icon-data"></i>
                     </span>
                     <div class="desc">
-                      <h3>Software</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <h3>Project management</h3>
+                      <p>Requirements gathering from the user,
+                      Provide technical support for the team and fix production issues.
+                      Deploy the application and do the testing in the testing environment QA.
+                      
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -215,8 +238,8 @@ function App() {
                       <i class="icon-phone3"></i>
                     </span>
                     <div class="desc">
-                      <h3>Application</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <h3>Complex problem solver</h3>
+                      <p>Code, optimize, test and review the programs</p>
                     </div>
                   </div>
                 </div>
@@ -258,11 +281,43 @@ function App() {
               </div>
               <div class="row">
                 <div class="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                  <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                <h4>TECHNICAL SKILLS</h4><hr/> <br/>
+
+                <h6> Technology</h6>: 
+                SpringBoot, J2EE, Servlets, JSP, Jquery,  <br/>
+                 Javascript, HTML, CSS, Shell Script, SQL,  ReactJs,  <br/>
+                 React Native,  AngularJs, NodeJs, Junit, JavaFx, Python,  <br/>
+                 Hibernate(JPA), EJB, JDBC, GIT, JIRA, Docker, Kubernetes
+                  <br/>
+                  <h6> Database/ DB tools </h6>: My SQL, Mongo DB, DB2, Druid, Oracle <br/> 
+                  <table border="1">
+                    <tr>
+                      <td>Quality Management</td>
+                      <td>JIRA</td>
+                    </tr>
+                    <tr>
+                      <td>OS</td>
+                      <td>Windows, Linux</td>
+                    </tr>
+                    <tr>
+                      <td>Build</td>
+                      <td>Maven</td>
+                    </tr>
+                    <tr>
+                      <td>Server</td>
+                      <td>AWS, GCP, PCF, heroku, Apache Tomcat, Weblogic </td>
+                    </tr>
+                    <tr>
+                      <td>IDE</td>
+                      <td>Eclipse, STS, VScode</td>
+                    </tr>
+                  </table>
+                  <br/>
+
                 </div>
                 <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                   <div class="progress-wrap">
-                    <h3>Photoshop</h3>
+                    <h3>JAVA</h3>
                     <div class="progress">
                       <div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: '75%' }}>
                         <span>75%</span>
@@ -272,10 +327,10 @@ function App() {
                 </div>
                 <div class="col-md-6 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
                   <div class="progress-wrap">
-                    <h3>jQuery</h3>
+                    <h3>JavaScript / jQuery</h3>
                     <div class="progress">
                       <div class="progress-bar color-2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: '60%' }}>
-                        <span>60%</span>
+                        <span>75%</span>
                       </div>
                     </div>
                   </div>
@@ -302,20 +357,20 @@ function App() {
                 </div>
                 <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                   <div class="progress-wrap">
-                    <h3>WordPress</h3>
+                    <h3>Docker / Kubernetes</h3>
                     <div class="progress">
                       <div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{ width: '70%' }}>
-                        <span>70%</span>
+                        <span>45%</span>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
                   <div class="progress-wrap">
-                    <h3>SEO</h3>
+                    <h3>Photoshop</h3>
                     <div class="progress">
                       <div class="progress-bar color-6" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '80%' }}>
-                        <span>80%</span>
+                        <span>60%</span>
                       </div>
                     </div>
                   </div>
@@ -338,19 +393,39 @@ function App() {
                       <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingOne">
                           <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Graphic Design
-</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bachelor Degree of Computer Science</a>
                           </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                           <div class="panel-body">
                             <div class="row">
-                              <div class="col-md-6">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                              </div>
-                              <div class="col-md-6">
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                              </div>
+<table>
+<tbody>
+  <th>  
+    <td>Graduation/Post Graduation</td>
+    <td>Specialization</td>
+    <td>Month
+/Year Of Passing</td>
+    <td>College Name</td>
+    <td>University Name</td>
+    <td>CGPA </td>    
+  </th>
+  
+  <tr>
+    <td>B.E.</td>
+    <td>COMPUTER SCIENCE</td>
+    <td>MAY ‘15</td>
+    <td>Jeppiaar Engineering College</td>
+    <td>Affiliated college of Anna University</td>
+    <td>7.15</td>
+  </tr>
+  </tbody>
+  </table>                             
+
+
+
+
+                              
                             </div>
                           </div>
                         </div>
@@ -358,59 +433,29 @@ function App() {
                       <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingTwo">
                           <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
-</a>
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> High School Secondary Education</a>
                           </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                           <div class="panel-body">
-                            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <ul>
-                              <li>Separated they live in Bookmarksgrove right</li>
-                              <li>Separated they live in Bookmarksgrove right</li>
-                            </ul>
+                          <table>
+<tbody>
+  <th>  
+    <td>Institution</td>
+    <td>Year of passing</td>        
+  </th>
+  
+  <tr>
+    <td>Gill Adarsh Mat.Hr.Secondary School, Chennai</td>    
+    <td>2011</td>    
+  </tr>
+  </tbody>
+  </table>      
+                            
                           </div>
                         </div>
-                      </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
-                          <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
-</a>
-                          </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                          <div class="panel-body">
-                            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFour">
-                          <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
-</a>
-                          </h4>
-                        </div>
-                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                          <div class="panel-body">
-                            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFive">
-                          <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
-</a>
-                          </h4>
-                        </div>
-                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                          <div class="panel-body">
-                            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                          </div>
-                        </div>
-                      </div>
+                      </div>                   
+                     
                     </div>
                   </div>
                 </div>
@@ -507,98 +552,16 @@ function App() {
                   <p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                  <div class="project" style={{ backgroundImage: 'url(images/img-1.jpg)' }}>
-                    <div class="desc">
-                      <div class="con">
-                        <h3><a href="work.html">Work 01</a></h3>
-                        <span>Website</span>
-                        <p class="icon">
-                          <span><a href="#"><i class="icon-share3"></i></a></span>
-                          <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                          <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
-                  <div class="project" style={{ backgroundImage: 'url(images/img-2.jpg)' }}>
-                    <div class="desc">
-                      <div class="con">
-                        <h3><a href="work.html">Work 02</a></h3>
-                        <span>Animation</span>
-                        <p class="icon">
-                          <span><a href="#"><i class="icon-share3"></i></a></span>
-                          <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                          <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 animate-box fadeInUp animated" data-animate-effect="fadeInTop">
-                  <div class="project" style={{ backgroundImage: 'url(images/img-3.jpg)' }}>
-                    <div class="desc">
-                      <div class="con">
-                        <h3><a href="work.html">Work 03</a></h3>
-                        <span>Illustration</span>
-                        <p class="icon">
-                          <span><a href="#"><i class="icon-share3"></i></a></span>
-                          <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                          <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 animate-box fadeInUp animated" data-animate-effect="fadeInBottom">
-                  <div class="project" style={{ backgroundImage: 'url(images/img-4.jpg)' }}>
-                    <div class="desc">
-                      <div class="con">
-                        <h3><a href="work.html">Work 04</a></h3>
-                        <span>Application</span>
-                        <p class="icon">
-                          <span><a href="#"><i class="icon-share3"></i></a></span>
-                          <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                          <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                  <div class="project" style={{ backgroundImage: 'url(images/img-5.jpg)' }}>
-                    <div class="desc">
-                      <div class="con">
-                        <h3><a href="work.html">Work 05</a></h3>
-                        <span>Graphic, Logo</span>
-                        <p class="icon">
-                          <span><a href="#"><i class="icon-share3"></i></a></span>
-                          <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                          <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
-                  <div class="project" style={{ backgroundImage: 'url(images/img-6.jpg)' }}>
-                    <div class="desc">
-                      <div class="con">
-                        <h3><a href="work.html">Work 06</a></h3>
-                        <span>Web Design</span>
-                        <p class="icon">
-                          <span><a href="#"><i class="icon-share3"></i></a></span>
-                          <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                          <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             <ul>
+             <li>Design web pages</li>
+             <li>brochures</li>
+             <li>logos</li>
+             <li>signs</li>              
+             <li>magazine covers</li>
+             <li>annual reports</li>
+             <li>advertisements and other communication materials.</li>
+             </ul>
+
               <div class="row">
                 <div class="col-md-12 animate-box fadeInUp animated">
                   <p><a href="#" class="btn btn-primary btn-sm rounded-0 btn-load-more">Load more <i class="icon-reload"></i></a></p>
@@ -668,7 +631,7 @@ function App() {
                       <i class="icon-globe-outline"></i>
                     </div>
                     <div class="colorlib-text">
-                      <p><a href="#">info@domain.com</a></p>
+                      <p><a href="#">vivekvppanneerselvam@gmail.com</a></p>
                     </div>
                   </div>
                   <div class="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
@@ -676,7 +639,7 @@ function App() {
                       <i class="icon-map"></i>
                     </div>
                     <div class="colorlib-text">
-                      <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                      <p>Chennai, India</p>
                     </div>
                   </div>
                   <div class="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
@@ -684,7 +647,7 @@ function App() {
                       <i class="icon-phone"></i>
                     </div>
                     <div class="colorlib-text">
-                      <p><a href="tel://">+123 456 7890</a></p>
+                      <p><a href="tel://">+91 9840271370</a></p>
                     </div>
                   </div>
                 </div>
