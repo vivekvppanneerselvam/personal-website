@@ -1,5 +1,8 @@
 import { useState } from 'react'
-import logo from './logo.svg';
+import logo from './assests/images/vivek.png'
+import iot_thermist from './assests/images/iot_thermist.PNG'
+import iot_drone from './assests/images/iot_drone.PNG'
+import ux_design_tools from './assests/images/ux_design_tools.PNG'
 import './App.css';
 
 
@@ -74,7 +77,7 @@ function App() {
           <section id="colorlib-hero" class="js-fullheight" data-section="home" style={{ height: '158px' }}>
             <div class="flexslider js-fullheight" style={{ height: '158px' }}>
               <ul class="slides">
-                <li style={{ backgroundImage: 'url(&quot;https://res.cloudinary.com/djlz8wdtu/image/upload/v1617728812/personal-site/IMG-20210106-WA0004_a7u5sk.jpg&quot;)', width: '100%', float: 'left', marginRight: '-100%', position: 'relative', opacity: 1, display: 'block', zIndex: 2 }} class="flex-active-slide" data-thumb-alt="">
+                <li style={{ backgroundImage: 'https://res.cloudinary.com/djlz8wdtu/image/upload/v1617728812/personal-site/IMG-20210106-WA0004_a7u5sk.jpg)', width: '100%', float: 'left', marginRight: '-100%', position: 'relative', opacity: 1, display: 'block', zIndex: 2 }} class="flex-active-slide" data-thumb-alt="">
                   <div class="overlay"></div>
                   <div class="container-fluid">
                     <div class="row">
@@ -83,6 +86,7 @@ function App() {
                           <div class="desc">
                             <h1>Hi! <br />I'm Vivek</h1>
                             <h2>A programmer / blogger / venture capitalist</h2>
+                            <img src={logo} />
                             <p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
                           </div>
                         </div>
@@ -117,8 +121,7 @@ function App() {
                         “All Birds find shelter during a rain, But Eagle avoids rain by flying above the clouds” - missile man
                         “Dreams is not what you see in sleep, is the thing which doesn't let you sleep” - missile man
 
-                        </p>
-                                                 
+                        </p>                                                
 
 
                         
@@ -472,37 +475,20 @@ function App() {
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <div class="timeline-centered">
-                    <article class="timeline-entry animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                      <div class="timeline-entry-inner">
-                        <div class="timeline-icon color-1">
-                          <i class="icon-pen2"></i>
-                        </div>
-                        <div class="timeline-label">
-                          <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-                          <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
-                        </div>
-                      </div>
-                    </article>
-                    <article class="timeline-entry animate-box fadeInRight animated" data-animate-effect="fadeInRight">
-                      <div class="timeline-entry-inner">
-                        <div class="timeline-icon color-2">
-                          <i class="icon-pen2"></i>
-                        </div>
-                        <div class="timeline-label">
-                          <h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-                          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                        </div>
-                      </div>
-                    </article>
+                  <div class="timeline-centered">                    
                     <article class="timeline-entry animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                       <div class="timeline-entry-inner">
                         <div class="timeline-icon color-3">
                           <i class="icon-pen2"></i>
                         </div>
                         <div class="timeline-label">
-                          <h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-                          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                          <h2><a href="#">System Analyst at Verizon, India</a> <span>2019-2021</span></h2>
+                          <h6>As a Programmer</h6>
+                          <ul>
+<li>	Design and implement front end and back end website components</li>
+<li>Write test cases for unit testing</li>
+<li>	Design a basic framework that ensures maintenance of proper coding standard.</li>
+</ul>
                         </div>
                       </div>
                     </article>
@@ -512,8 +498,15 @@ function App() {
                           <i class="icon-pen2"></i>
                         </div>
                         <div class="timeline-label">
-                          <h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
-                          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                          <h2><a href="#">Associate Consultant at Syntel, Inc</a> <span>2016-2018</span></h2>
+                          <h6>As a Senior Software Engineer </h6>
+                          <li>	Deploy the application and do the testing in the testing environment QA.</li>
+                            <li>Code, optimize, test and review the programs.</li>
+                            <li>Coordinate with QA team for fixing issues.</li>
+                            <li>Design mock up for front end and back end.</li>
+                            <li>Provide creative features for websites.</li>
+                            <li>Provide technical support for the team and fix production issues.</li>
+                            <li>	Requirements gathering from the user</li>
                         </div>
                       </div>
                     </article>
@@ -523,8 +516,18 @@ function App() {
                           <i class="icon-pen2"></i>
                         </div>
                         <div class="timeline-label">
-                          <h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-                          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                          <h2><a href="#"></a>Software Engineer at Syntel, Inc<span>2015-2016</span></h2>
+
+                          <h6>As a Software Engineer </h6>
+                          <ul>
+                            <li>  Analyze the requirements.</li>
+                            <li> Prepare design documents.</li>
+                            <li> Coding, test case preparation and developer testing.</li>
+                            <li> Releasing enhancements and issue fixing for every release.</li>
+                            <li>  Release management and support coordination with various</li>
+                            <li> infrastructure teams.</li>                           
+
+                          </ul>                          
                         </div>
                       </div>
                     </article>
@@ -549,18 +552,41 @@ function App() {
               </div>
               <div class="row row-bottom-padded-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                 <div class="col-md-12">
-                  <p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+                  <p class="work-menu">
+                    <span><a href="#" class="active">Graphic Design</a></span>
+                    <span><a href="#">Web Design</a></span> 
+                    <span><a href="#">Software</a></span>
+                    <span><a href="#">Apps</a></span></p>
                 </div>
               </div>
              <ul>
-             <li>Design web pages</li>
-             <li>brochures</li>
-             <li>logos</li>
-             <li>signs</li>              
-             <li>magazine covers</li>
-             <li>annual reports</li>
-             <li>advertisements and other communication materials.</li>
+              <li>Design web pages</li>
+              <li>Brochures</li>
+              <li>Logos</li>
+              <li>Signs</li>              
+              <li>Magazine covers/ Posters</li>
+              <li>Annual reports</li>
+              <li>Advertisements and other communication materials.</li>
              </ul>
+
+             <ul>
+              <li>Design web pages</li>
+              <li>Mobile application templates</li>
+              <li>Creating mockups</li>
+              <li>Designing assets </li>
+             </ul>
+
+             <ul>
+              <li>Billing & Retial Inventory Management Software</li>
+              <li>Published Capche Module for Angular & React</li> 
+              <li>IOT Drone / Quadcopter</li>             
+             </ul>
+             <ul>
+              <li>Ecommerse Website & Mobile App for selling products</li>
+              <li>Taxi Booking Mobile  App</li>              
+              <li>IOT Drone / Quadcopter</li>
+             </ul>
+             
 
               <div class="row">
                 <div class="col-md-12 animate-box fadeInUp animated">
@@ -580,38 +606,49 @@ function App() {
               <div class="row">
                 <div class="col-md-4 col-sm-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                   <div class="blog-entry">
-                    <a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+                    <a href="https://vivekpanneerselvam.blogspot.com/" target="_blank" class="blog-img">
+                      <img src={iot_drone} class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
                     <div class="desc">
-                      <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-                      <h3><a href="blog.html">Renovating National Gallery</a></h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                      <span><small>April 06, 2021</small> | <small> IoT </small> | </span>
+                      <h3><a href="https://vivekpanneerselvam.blogspot.com/" target="_blank">IOT Drone / Quadcopter</a></h3>
+                      <p>  Another IoT project IoT Drone / Quadcopter with nodemcu able to control quadcopter 
+                        without transmitter & receiver an initial start to spin BDLC motor with ESC component.
+                        Components used 1. NodeMCU ESP8266 </p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
-                  <div class="blog-entry">
-                    <a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+                <div class="blog-entry">
+                    <a href="https://vivekpanneerselvam.blogspot.com/" target="_blank" class="blog-img">
+                      <img src={ux_design_tools} class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
                     <div class="desc">
-                      <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-                      <h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <span><small>April 06, 2021</small> | <small> IoT </small> | </span>
+                      <h3><a href="blog.html">UI/UX Research & Design Tools</a></h3>
+                      <p>A nice big list of UX Research & Design Tools.
+
+Too much to choose from, so pick wisely, as per the user & system needs. #ai
+
+#DesignThing #UXResearch #UXTools #UXDesign</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                   <div class="blog-entry">
-                    <a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+                    <a href="https://vivekpanneerselvam.blogspot.com/" target="_blank" class="blog-img">
+                      <img src={iot_thermist} class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
                     <div class="desc">
-                      <span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-                      <h3><a href="blog.html">Make website from scratch</a></h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <span><small>April 06, 2021</small> | <small> IoT </small> | </span>
+                      <h3><a href="https://vivekpanneerselvam.blogspot.com/" target="_blank">IOT Thermist</a></h3>
+                      <p> Small IoT project from my learning. Temperature Monitoring System Components: 
+                        Arduino NodeMCU WiFi Resistor Thermistor 102 Breadboard 
+                        "If you think that the internet has changed your life, think again. </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12 animate-box fadeInUp animated">
-                  <p><a href="#" class="btn btn-primary btn-sm rounded-0 btn-load-more">Load more <i class="icon-reload"></i></a></p>
+                  <p><a href="https://vivekpanneerselvam.blogspot.com/" target="_blank" class="btn btn-primary btn-sm rounded-0 btn-load-more">Load more <i class="icon-reload"></i></a></p>
                 </div>
               </div>
             </div>
